@@ -1,0 +1,8 @@
+./hadoop namenode -format
+./start-dfs.sh
+
+Operation:(under the bin/)
+./hadoop fs -mkdir [enter the folder path you need to create]/
+./hadoop fs -put [input file path] [input file path in dfs]/
+./hadoop jar [enter jar file path] [input file path in dfs] [output folder path]/
+./hadoop fs -cat [output file path]

@@ -1,0 +1,2 @@
+transfer file:
+scp -i xxx.pem localfile ubuntu@ec2-54-237-51-189.compute-1.amazonaws.com:remote path
