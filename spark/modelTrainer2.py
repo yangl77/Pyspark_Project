@@ -67,7 +67,7 @@ print("mse = %g" % reg_evaluator.evaluate(reg_prediction, {reg_evaluator.metricN
 print("rmse = %g" % reg_evaluator.evaluate(reg_prediction, {reg_evaluator.metricName: "rmse"}))
 print("mae = %g" % reg_evaluator.evaluate(reg_prediction, {reg_evaluator.metricName: "mae"}))
 
-reg_model.write().overwrite().save("hdfs://172.31.58.70:9000/data/spark_reg_model.json")
+# reg_model.write().overwrite().save("hdfs://172.31.58.70:9000/data/model")  # Run this when hdfs is running!
 
 
 
